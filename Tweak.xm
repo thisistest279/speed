@@ -222,8 +222,8 @@ __strong static id _sharedObject;
 		case UIDeviceOrientationPortrait:
 	default: {
 			isLandscape = NO;
-			yLoc = 20;
-			xLoc = (kScreenW-kWidth-5);
+			yLoc = 10;
+			xLoc = (kScreenW-kWidth-20);
 			newTransform = CGAffineTransformMakeRotation(DegreesToRadians(0));
 			break;
 		}
